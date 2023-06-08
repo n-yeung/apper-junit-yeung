@@ -1,0 +1,27 @@
+1. Unit test
+unit testing is to  run every component of the code individually
+
+2. Integration test
+this is testing in relation to another component to ensure that they work well as compared to individually
+
+3. System test
+this is to check if the overall program is following compliance
+
+4. Acceptance test
+this is done by the users to see if the code is indeed correct
+
+5. False
+
+6. Jupiter
+
+7. assertTrue
+checks condition if true
+
+8. assertNull
+checks if parameter is null
+
+9. assertEqual
+checks if values are equal or the same
+
+10. assertSame
+checks if the pointed objects are equal, a stronger assertEqual which only checks value
