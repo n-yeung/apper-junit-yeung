@@ -1,11 +1,10 @@
 package com.gcash;
 
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-class AccountRepositoryTest {
+public class AccountRepositoryTest {
 
     @Test
     void successfulAccountCreation() {
@@ -17,7 +16,7 @@ class AccountRepositoryTest {
 
         // Verify
         Assertions.assertEquals(1, repository.getNumberOfAccounts());
-        Assertions.assertEquals("Orvyl", repository.getAccount(accountId).name());
+        Assertions.assertEquals("Orvyl", repository.getAccount(accountId).getName());
         Assertions.assertNotNull(accountId);
     }
 
@@ -27,8 +26,8 @@ class AccountRepositoryTest {
 
         String accountId = repository.createAccount("Orvyl", 89.9);
 
-        Assertions.assertEquals("Orvyl", repository.getAccount(accountId).name());
-        Assertions.assertEquals(89.9, repository.getAccount(accountId).balance());
+        Assertions.assertEquals("Orvyl", repository.getAccount(accountId).getName());
+        Assertions.assertEquals(89.9, repository.getAccount(accountId).getBalance());
         Assertions.assertNull(repository.getAccount("randomid"));
     }
 
@@ -64,21 +63,12 @@ class AccountRepositoryTest {
         Assertions.assertEquals(3, repository.getNumberOfAccounts());
     }
 
-    /*
     @Test
-    void createAccount() {
+    void checkNoRegisteredAccount(){
+        AccountRepository repository = new AccountRepository();
+        String id0 = repository.createAccount("Orvyl", 89.9);
+        Assertions.assertFalse(repository.noRegisteredAccount());
+        repository.deleteAccount(id0);
+        Assertions.assertTrue(repository.noRegisteredAccount());
     }
-
-    @Test
-    void getAccount() {
-    }
-
-    @Test
-    void deleteAccount() {
-    }
-
-    @Test
-    void getNumberOfAccounts() {
-    }
-    */
 }

@@ -1,8 +1,8 @@
 package com.gcash;
 
-        import java.util.ArrayList;
-        import java.util.List;
-        import java.util.UUID;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.UUID;
 
 public class AccountRepository {
     private final List<Account> accounts = new ArrayList<>();
@@ -15,30 +15,29 @@ public class AccountRepository {
 
         return id;
     }
-    //public String createAccount(String name, Double initialBalance) {return null;}
 
     public Account getAccount(String id) {
-
-        for (Account account : accounts) {
-            if (account.id().equals(id)) {
-                return account;
-            }
-        }
-
-        return null;
+        return accounts
+                .stream()
+                .filter(account -> id.equals(account.getId()))
+                .findFirst()
+                .orElse(null);
     }
-    //public Account getAccount(String id) {return null;}
 
     public void deleteAccount(String id) {
-        for (Account account : accounts) {
-            if (account.id().equals(id)) {
-                accounts.remove(account);
-                return;
-            }
-        }
+        accounts
+                .stream()
+                .filter(account -> id.equals(account.getId()))
+                .findFirst()
+                .ifPresent(accounts::remove);
     }
 
     public Integer getNumberOfAccounts() {
         return accounts.size();
+    }
+
+    // No test. Create one
+    public boolean noRegisteredAccount() {
+        return accounts.isEmpty();
     }
 }

@@ -10,8 +10,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -25,12 +32,87 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.gcash" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.gcash in apper-junit-nyeung">
+    <configuration name="AccountRepositoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-nyeung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gcash" />
+      <option name="MAIN_CLASS_NAME" value="com.gcash.AccountRepositoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRepositoryTest.checkNoRegisteredAccount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-nyeung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gcash" />
+      <option name="MAIN_CLASS_NAME" value="com.gcash.AccountRepositoryTest" />
+      <option name="METHOD_NAME" value="checkNoRegisteredAccount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountRepositoryTest.successfulAccountCreation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-nyeung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.gcash.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.gcash" />
+      <option name="MAIN_CLASS_NAME" value="com.gcash.AccountRepositoryTest" />
+      <option name="METHOD_NAME" value="successfulAccountCreation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="gcash in apper-junit-nyeung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-nyeung" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java/com/gcash" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.gcash in apper-junit-nyeung" />
+        <item itemvalue="JUnit.AccountRepositoryTest.checkNoRegisteredAccount" />
+        <item itemvalue="JUnit.AccountRepositoryTest" />
+        <item itemvalue="JUnit.AccountRepositoryTest.successfulAccountCreation" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,5 +142,31 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java unit testing day 1" />
     <option name="LAST_COMMIT_MESSAGE" value="java unit testing day 1" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/gcash/BalanceServiceTest.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/junit_day1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686324712799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gcash.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686276615430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gcash.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_checkNoRegisteredAccount.ic" NAME="AccountRepositoryTest.checkNoRegisteredAccount Coverage Results" MODIFIED="1686276597442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gcash.*</FILTER>
+    </SUITE>
+    <SUITE FILE_PATH="coverage/junit_day1$gcash_in_apper_junit_nyeung.ic" NAME="gcash in apper-junit-nyeung Coverage Results" MODIFIED="1686325024869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_successfulAccountCreation.ic" NAME="AccountRepositoryTest.successfulAccountCreation Coverage Results" MODIFIED="1686203722116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.gcash.*</FILTER>
+    </SUITE>
   </component>
 </project>

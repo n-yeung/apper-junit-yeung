@@ -24,4 +24,4 @@ checks if parameter is null
 checks if values are equal or the same
 
 10. assertSame
-checks if the pointed objects are equal, a stronger assertEqual which only checks value
+checks if the pointed objects are the same, a stronger assertEqual which only checks value
