@@ -37,7 +37,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "settings.editor.selected.configurable": "project.propVCSSupport.DirectoryMappings"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -104,9 +105,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="java in apper-junit-nyeung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="apper-junit-nyeung" />
+      <option name="TEST_OBJECT" value="directory" />
+      <dir value="$PROJECT_DIR$/src/test/java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.gcash in apper-junit-nyeung" />
+        <item itemvalue="JUnit.java in apper-junit-nyeung" />
         <item itemvalue="JUnit.AccountRepositoryTest.checkNoRegisteredAccount" />
         <item itemvalue="JUnit.AccountRepositoryTest" />
         <item itemvalue="JUnit.AccountRepositoryTest.successfulAccountCreation" />
@@ -143,17 +153,6 @@
     <MESSAGE value="java unit testing day 1" />
     <option name="LAST_COMMIT_MESSAGE" value="java unit testing day 1" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/gcash/BalanceServiceTest.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/junit_day1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686324712799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
@@ -164,7 +163,7 @@
     <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_checkNoRegisteredAccount.ic" NAME="AccountRepositoryTest.checkNoRegisteredAccount Coverage Results" MODIFIED="1686276597442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/junit_day1$gcash_in_apper_junit_nyeung.ic" NAME="gcash in apper-junit-nyeung Coverage Results" MODIFIED="1686325024869" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/junit_day1$gcash_in_apper_junit_nyeung.ic" NAME="gcash in apper-junit-nyeung Coverage Results" MODIFIED="1686325518911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_successfulAccountCreation.ic" NAME="AccountRepositoryTest.successfulAccountCreation Coverage Results" MODIFIED="1686203722116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
