@@ -154,16 +154,16 @@
     <option name="LAST_COMMIT_MESSAGE" value="java unit testing day 1" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/junit_day1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686324712799" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/junit_day1$BalanceServiceTest.ic" NAME="BalanceServiceTest Coverage Results" MODIFIED="1686538772727" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686276615430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+    <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest.ic" NAME="AccountRepositoryTest Coverage Results" MODIFIED="1686538729724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
     <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_checkNoRegisteredAccount.ic" NAME="AccountRepositoryTest.checkNoRegisteredAccount Coverage Results" MODIFIED="1686276597442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
-    <SUITE FILE_PATH="coverage/junit_day1$gcash_in_apper_junit_nyeung.ic" NAME="gcash in apper-junit-nyeung Coverage Results" MODIFIED="1686325518911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/junit_day1$gcash_in_apper_junit_nyeung.ic" NAME="gcash in apper-junit-nyeung Coverage Results" MODIFIED="1686538857100" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
     <SUITE FILE_PATH="coverage/junit_day1$AccountRepositoryTest_successfulAccountCreation.ic" NAME="AccountRepositoryTest.successfulAccountCreation Coverage Results" MODIFIED="1686203722116" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>com.gcash.*</FILTER>
     </SUITE>
